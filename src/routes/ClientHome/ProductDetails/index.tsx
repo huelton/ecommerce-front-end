@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { ProductDTO } from "../../../models/product";
 import * as productService from "../../../services/product-service";
 
+
 export default function ProductDetails() {
   const params = useParams();
   const navigate = useNavigate();
