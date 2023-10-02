@@ -1,4 +1,4 @@
-export type RoleEnum = "ROLE_ADMIN" | "ROLE_CLIENT";
+export type RoleEnum = "ROLE_ADMIN" | "ROLE_OPERATOR";
 
 export type CredentialsDTO = {
   username: string;
@@ -8,5 +8,5 @@ export type CredentialsDTO = {
 export type AccessTokenPayloadDTO = {
   exp: number,
   user_name: string,
-  autorities: RoleEnum[]
+  authorities: RoleEnum[]
 };
